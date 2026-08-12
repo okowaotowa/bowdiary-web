@@ -1,6 +1,7 @@
 .main { width: min(calc(100% - 64px), 960px); margin: 0 auto; padding: clamp(90px, 12vw, 170px) 0 clamp(120px, 15vw, 210px); }
 .eyebrow { margin-bottom: 32px; font-family: var(--font-rubik), sans-serif; font-size: .67rem; letter-spacing: .2em; color: var(--accent-dark); }
 .title { font-family: var(--font-rubik), var(--font-zen-kaku), sans-serif; font-size: clamp(2.75rem, 5vw, 4.5rem); font-weight: 500; line-height: 1.1; letter-spacing: .05em; }
+.privacyTitle { font-size: clamp(2.25rem, 5vw, 4.5rem); white-space: nowrap; }
 .intro { max-width: 760px; margin-top: 54px; color: var(--muted); font-size: .94rem; line-height: 2; letter-spacing: .04em; }
 .date { margin-top: 24px; font-family: var(--font-rubik), sans-serif; color: var(--muted); font-size: .72rem; letter-spacing: .05em; }
 .content { margin-top: clamp(100px, 13vw, 160px); border-top: 1px solid var(--line); }
@@ -17,4 +18,4 @@
 .faq li:last-child { border: 0; padding-bottom: 0; }
 .faq h3 { margin-bottom: 12px; color: var(--text); font-size: 1rem; font-weight: 500; }
 .mail { display: inline-block; margin-top: 24px; font-family: var(--font-rubik), sans-serif; font-size: clamp(1.15rem, 3vw, 1.65rem); }
-@media (max-width: 680px) { .main { width: calc(100% - 40px); padding-top: 75px; } .title { font-size: 2.625rem; } .section { grid-template-columns: 1fr; gap: 22px; padding: 42px 0 48px; } }
+@media (max-width: 680px) { .main { width: calc(100% - 40px); padding-top: 75px; } .title { font-size: 2.625rem; } .privacyTitle { font-size: clamp(2rem, 10vw, 2.625rem); } .section { grid-template-columns: 1fr; gap: 22px; padding: 42px 0 48px; } }

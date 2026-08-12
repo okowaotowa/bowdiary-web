@@ -8,7 +8,7 @@ export const metadata: Metadata = { title: "Privacy Policy", description: "BOW D
 export default function PrivacyPage() {
   return <><Header /><main className={styles.main}>
     <p className={styles.eyebrow}>YOUR DATA, YOUR DIARY.</p>
-    <h1 className={styles.title}>Privacy<br />Policy</h1>
+    <h1 className={`${styles.title} ${styles.privacyTitle}`}>Privacy Policy</h1>
     <p className={styles.intro}>BOW DIARY（以下「本アプリ」）は、愛犬との散歩記録を安心して残していただけるよう、利用する情報とその目的を明確にします。</p>
     <p className={styles.date}>制定日：2026年8月12日</p>
     <div className={styles.content}>

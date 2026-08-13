@@ -26,6 +26,9 @@ export const metadata: Metadata = {
   applicationName: "BOW DIARY",
   keywords: ["BOW DIARY", "犬", "散歩", "記録", "日記", "Vlog", "iOSアプリ"],
   alternates: { canonical: "/" },
+  verification: {
+    google: "has-hLBxX2KG2hwAXyKHqujmpmlaMOfM5lgDrEdc7Qs",
+  },
   openGraph: {
     type: "website",
     locale: "ja_JP",
